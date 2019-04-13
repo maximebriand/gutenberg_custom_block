@@ -1,4 +1,16 @@
 .custom_gutenberg_folio_left,
 .custom_gutenberg_folio_right{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom_gutenberg_folio_left .content,
+.custom_gutenberg_folio_right .content {
+    width:30%;
+}
+.custom_gutenberg_folio_right .imgFolio,
+.custom_gutenberg_folio_left .imgFolio {
+    width: 65%;
+    align-items: center;
 }

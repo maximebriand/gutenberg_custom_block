@@ -20,7 +20,9 @@ use Carbon_Fields\Field;
             ->set_render_callback( function ( $block ) {
                 ?>
                 <div class="custom_gutenberg_folio_left">
-                    <?php echo wp_get_attachment_image( $block['image'], 'full' ); ?>
+                    <div class="imgFolio">
+                        <?php echo wp_get_attachment_image( $block['image'], 'full' ); ?>
+                    </div>
                     <div class="content">
                         <p>
                             <?php echo apply_filters( 'the_content', $block['content'] ); ?>
@@ -44,7 +46,9 @@ use Carbon_Fields\Field;
                             <?php echo apply_filters( 'the_content', $block['content'] ); ?>
                         </p>
                     </div>
-                    <?php echo wp_get_attachment_image( $block['image'], 'full' ); ?>
+                    <div class="imgFolio">
+                        <?php echo wp_get_attachment_image( $block['image'], 'full' ); ?>
+                    </div>
                 </div>
                 <?php
             }
