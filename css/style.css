@@ -1,1 +1,4 @@
-body {background: red !important;}
+.custom_gutenberg_folio_left,
+.custom_gutenberg_folio_right{
+    display: flex;
+}

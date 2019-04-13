@@ -19,7 +19,7 @@ use Carbon_Fields\Field;
             ) )
             ->set_render_callback( function ( $block ) {
                 ?>
-                <div class="custom_gutemberg_folio_left">
+                <div class="custom_gutenberg_folio_left">
                     <?php echo wp_get_attachment_image( $block['image'], 'full' ); ?>
                     <div class="content">
                         <p>
@@ -38,7 +38,7 @@ use Carbon_Fields\Field;
             ) )
             ->set_render_callback( function ( $block ) {
                 ?>
-                <div class="custom_gutemberg_folio_left">
+                <div class="custom_gutenberg_folio_left">
                     <div class="content">
                         <p>
                             <?php echo apply_filters( 'the_content', $block['content'] ); ?>
