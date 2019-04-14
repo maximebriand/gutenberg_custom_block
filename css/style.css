@@ -21,6 +21,9 @@
     .custom_gutenberg.folio_left {
         flex-direction: column;
     }
+    .custom_gutenberg .imgFolio {
+        margin-bottom: 30px;
+    }
     .custom_gutenberg .imgFolio,
     .custom_gutenberg .content {
         width: 100%;
