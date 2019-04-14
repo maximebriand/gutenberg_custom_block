@@ -6,12 +6,23 @@
     align-items: center;
 }
 
-.custom_gutenberg.folio_left .content,
-.custom_gutenberg.folio_right .content {
+.custom_gutenberg .content {
     width:30%;
 }
-.custom_gutenberg.folio_right .imgFolio,
-.custom_gutenberg.folio_left .imgFolio {
-    width: 65%;
+.custom_gutenberg .imgFolio {
+    width: 60%;
     align-items: center;
+}
+
+@media screen and (max-width: 721px) {
+    .custom_gutenberg.folio_right {
+        flex-direction: column-reverse;
+    }
+    .custom_gutenberg.folio_left {
+        flex-direction: column;
+    }
+    .custom_gutenberg .imgFolio,
+    .custom_gutenberg .content {
+        width: 100%;
+    }
 }

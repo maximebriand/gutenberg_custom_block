@@ -40,7 +40,7 @@ use Carbon_Fields\Field;
             ) )
             ->set_render_callback( function ( $block ) {
                 ?>
-                <div class="custom_gutenberg folio_left">
+                <div class="custom_gutenberg folio_right">
                     <div class="content">
                         <p>
                             <?php echo apply_filters( 'the_content', $block['content'] ); ?>
