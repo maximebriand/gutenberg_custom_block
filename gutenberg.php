@@ -1,6 +1,6 @@
 <?php
 /**
-Plugin Name: Zero plugin
+Plugin Name: Custom Gutemberg Block
  */
 
 add_action( 'after_setup_theme', 'thfo_load' );
